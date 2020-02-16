@@ -28,28 +28,27 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`redcrypto hello [FILE]`](#redcrypto-hello-file)
+* [`redcrypto creds`](#redcrypto-creds)
 * [`redcrypto help [COMMAND]`](#redcrypto-help-command)
 
-## `redcrypto hello [FILE]`
+## `redcrypto creds`
 
-describe the command here
+set coinbase creds
 
 ```
 USAGE
-  $ redcrypto hello [FILE]
+  $ redcrypto creds
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ redcrypto hello
-  hello world from ./src/hello.ts!
+  -p, --passphrase=passphrase
+  -s, --secret=secret
+  --apikey=apikey
+  --env=dev|prod               [default: dev]
+  --file=file                  optionally supply path to .env file
+  --save                       save config
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/redharp/redcrypto/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/creds.ts](https://github.com/redharp/redcrypto/blob/v0.0.0/src/commands/creds.ts)_
 
 ## `redcrypto help [COMMAND]`
 
