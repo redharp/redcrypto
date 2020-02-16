@@ -28,8 +28,24 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`redcrypto config`](#redcrypto-config)
 * [`redcrypto creds`](#redcrypto-creds)
 * [`redcrypto help [COMMAND]`](#redcrypto-help-command)
+
+## `redcrypto config`
+
+coinbase.pro api configuration
+
+```
+USAGE
+  $ redcrypto config
+
+OPTIONS
+  --list=all|apikey|secret|passphrase  print envParams
+  --set=apikey|secret|passphrase       overwrite envParam
+```
+
+_See code: [src/commands/config.ts](https://github.com/redharp/redcrypto/blob/v0.0.0/src/commands/config.ts)_
 
 ## `redcrypto creds`
 
