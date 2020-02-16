@@ -1,0 +1,1 @@
+{"env":"dev","coinbase":{"apikey":"2038c086399d435ea5ac19717c201fba","passphrase":"TRIBECA2","secret":"a3E7F/dKB5UjwxoQG/jo6FiYaYIUp10JOGMYhkXxHZm1/iXNAJXyXEHk8AfWnyEh48FPEUDZucl2U0keznobDQ==","ws":{"sandbox":"wss://ws-feed-public.sandbox.pro.coinbase.com","prod:":""},"rest":{"prod":"","sandbox":"https: //api-public.sandbox.pro.coinbase.com"}}}

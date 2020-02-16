@@ -1,0 +1,16 @@
+{
+  "env": "dev",
+  "coinbase": {
+    "apikey": "",
+    "passphrase": "",
+    "secret": "",
+    "ws": {
+      "sandbox": "wss://ws-feed-public.sandbox.pro.coinbase.com",
+      "prod:": ""
+    },
+    "rest": {
+      "prod": "",
+      "sandbox": "https: //api-public.sandbox.pro.coinbase.com"
+    }
+  }
+}
